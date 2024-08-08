@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		75B10D9A2C5D299A000C13B0 /* InspireMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D992C5D299A000C13B0 /* InspireMeApp.swift */; };
 		75B10D9C2C5D299A000C13B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D9B2C5D299A000C13B0 /* ContentView.swift */; };
-		75B10D9E2C5D299A000C13B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B10D9D2C5D299A000C13B0 /* Item.swift */; };
 		75B10DA02C5D299C000C13B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B10D9F2C5D299C000C13B0 /* Assets.xcassets */; };
 		75B10DA32C5D299C000C13B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B10DA22C5D299C000C13B0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		75B10D962C5D299A000C13B0 /* InspireMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspireMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B10D992C5D299A000C13B0 /* InspireMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspireMeApp.swift; sourceTree = "<group>"; };
 		75B10D9B2C5D299A000C13B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		75B10D9D2C5D299A000C13B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		75B10D9F2C5D299C000C13B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B10DA22C5D299C000C13B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				75B10D992C5D299A000C13B0 /* InspireMeApp.swift */,
 				75B10D9B2C5D299A000C13B0 /* ContentView.swift */,
-				75B10D9D2C5D299A000C13B0 /* Item.swift */,
 				75B10D9F2C5D299C000C13B0 /* Assets.xcassets */,
 				75B10DA12C5D299C000C13B0 /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B10D9C2C5D299A000C13B0 /* ContentView.swift in Sources */,
-				75B10D9E2C5D299A000C13B0 /* Item.swift in Sources */,
 				75B10D9A2C5D299A000C13B0 /* InspireMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
