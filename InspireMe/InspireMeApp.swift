@@ -10,6 +10,9 @@ import SwiftData
 
 @main
 struct InspireMeApp: App {
+    
+    private var homeViewModel = HomeViewModel()
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,7 +28,7 @@ struct InspireMeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(viewModel: homeViewModel)
         }
         .modelContainer(sharedModelContainer)
     }
